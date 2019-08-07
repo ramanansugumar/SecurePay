@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [securepay]" parallel="methods">
+  <test name="Test One(failed)" parallel="methods">
+    <classes>
+      <class name="org.securepay.TestRunner">
+        <methods>
+          <include name="getResult"/>
+          <include name="initAll"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- org.securepay.TestRunner -->
+    </classes>
+  </test> <!-- Test One(failed) -->
+</suite> <!-- Failed suite [securepay] -->
