@@ -33,7 +33,7 @@ public class TestRunner {
 		
 		String browserType = util.getAppPropValue("browser");
 
-		// to facilitate multi browser settings
+		// to facilitate multi browser settings and check for dockerflag also
 
 		if (browserType.equalsIgnoreCase("chrome")) {
 			/*
